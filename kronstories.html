@@ -34,78 +34,54 @@
 			<div class="kronstories__container">
 				<div class="kronstories__wrapper">
 					<section class="stories">
-
 						<div class="stories__title title title_big">
-							<div class="stories__title_first-part">kron</div>
-							<div class="stories__title_second-part"><span class="text_grey">Stories</span><span class="text-accent_orange">/</span></div>
+							<div class="stories__title_first-part">Insights</div>
+							<div class="stories__title_second-part">
+								<span class="text_grey">AI</span>
+								<span class="text-accent_orange">/</span>
+							</div>
 						</div>
 					</section>
-
 				</div>
 			</div>
-
+		
 			<!-- Slider main container -->
 			<div class="swiper stories-slider">
 				<!-- Additional required wrapper -->
 				<div class="swiper-wrapper">
 					<!-- Slides -->
+					<!-- Your existing slider content -->
+					<!-- ... -->
+		
+					<!-- File upload containers -->
 					<div class="swiper-slide stories-slide">
-						<div class="stories-slide__img">
-							<picture><source srcset="img/stories/photo-1.webp" type="image/webp"><img src="img/stories/photo-1.jpg" alt="Ships of the desert"></picture>
-						</div>
-						<div class="stories-slide__text">Ships of the desert</div>
-					</div>
-
-					<div class="swiper-slide stories-slide">
-						<div class="stories-slide__img">
-							<picture><source srcset="img/stories/photo-2.webp" type="image/webp"><img src="img/stories/photo-2.jpg" alt="Admire the spire"></picture>
-						</div>
-						<div class="stories-slide__text">Admire the spire</div>
-					</div>
-
-					<div class="swiper-slide stories-slide">
-						<div class="stories-slide__img">
-							<picture><source srcset="img/stories/photo-3.webp" type="image/webp"><img src="img/stories/photo-3.jpg" alt="The East is a delicate matter"></picture>
-						</div>
-						<div class="stories-slide__text">The East is a delicate matter</div>
-					</div>
-
-					<div class="swiper-slide stories-slide">
-						<div class="stories-slide__img">
-							<picture><source srcset="img/stories/photo-4.webp" type="image/webp"><img src="img/stories/photo-4.jpg" alt="Night City Lights"></picture>
-						</div>
-						<div class="stories-slide__text">Night City Lights</div>
-					</div>
-
-					<div class="swiper-slide stories-slide">
-						<div class="stories-slide__img">
-							<picture><source srcset="img/stories/photo-5.webp" type="image/webp"><img src="img/stories/photo-5.jpg" alt="Sunset"></picture>
+						<div class="file-upload-container">
+							<h2>Data Architect</h2>
+							<input type="file" id="dataArchitectFileInput" class="file-input" accept=".csv">
+							<div class="file-info" id="dataArchitectOperations">No file uploaded</div>
+							<button onclick="handleDataArchitectUpload()">Process Data Architect File</button>
 						</div>
 					</div>
-
+		
 					<div class="swiper-slide stories-slide">
-						<div class="stories-slide__img">
-							<picture><source srcset="img/stories/photo-6.webp" type="image/webp"><img src="img/stories/photo-6.jpg" alt="It is the tallest one!"></picture>
+						<div class="file-upload-container">
+							<h2>Tableau Developer</h2>
+							<input type="file" id="tableauDeveloperFileInput" class="file-input" accept=".csv">
+							<div class="file-info" id="tableauDeveloperOperations">No file uploaded</div>
+							<button onclick="handleTableauDeveloperUpload()">Process Tableau Developer File</button>
 						</div>
-						<div class="stories-slide__text">It is the tallest one!</div>
 					</div>
-
+		
 					<div class="swiper-slide stories-slide">
-						<div class="stories-slide__img">
-							<picture><source srcset="img/stories/photo-7.webp" type="image/webp"><img src="img/stories/photo-7.jpg" alt="An old little village"></picture>
+						<div class="file-upload-container">
+							<h2>Data Analyst</h2>
+							<input type="file" id="dataAnalystFileInput" class="file-input" accept=".csv">
+							<div class="file-info" id="dataAnalystOperations">No file uploaded</div>
+							<button onclick="handleDataAnalystUpload()">Process Data Analyst File</button>
 						</div>
-						<div class="stories-slide__text">An old little village</div>
-					</div>
-
-					<div class="swiper-slide stories-slide">
-						<div class="stories-slide__img">
-							<picture><source srcset="img/stories/photo-8.webp" type="image/webp"><img src="img/stories/photo-8.jpg" alt="Just a flowerbed in the yard"></picture>
-						</div>
-						<div class="stories-slide__text">Just a flowerbed in the yard</div>
 					</div>
 				</div>
 			</div>
-
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
